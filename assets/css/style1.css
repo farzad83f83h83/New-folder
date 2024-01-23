@@ -749,6 +749,13 @@
    color: white;
    margin: 10px 0 0px 50px;
    font-size: 18px;
+   transition: all 0.4s;
+}
+.footer .about:hover {
+   color: var(--orang);
+   margin: 10px 0 0px 50px;
+   font-size: 18px;
+   border-bottom: 2px solid;
 }
 .footer .logos {
    background: hsl(216, 21%, 34%, 100%);
@@ -760,7 +767,18 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   
+   transition: all 0.3s;
+ }
+ .footer .logos:hover {
+   background: var(--orang);
+   color: white;
+   font-size: 40px;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
  }
  .logo-twit {
    display: flex;
@@ -768,6 +786,7 @@
    justify-content: space-between;
    padding: 50px 280px 20px 50px;
  }
+
 
  .copyright {
    color: hsl(0, 0%, 63%);
